@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{388BC7B8-EC4D-4FA7-8840-0A3B34617CE9}</ProjectGuid>
+    <RootNamespace>cow2</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\cow\cow\UserImages.bmp" />
+    <None Include="..\13206_200803081131465-img2ico.net.ico" />
+    <None Include="..\UserImages.bmp" />
+    <None Include="..\灰色.ico" />
+    <None Include="..\绿色.ico" />
+    <None Include="C:\Users\Administrator.WJ-20140605XBQL\Desktop\灰色.ico" />
+    <None Include="C:\Users\Administrator.WJ-20140605XBQL\Desktop\绿色.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="resource.hm" />
+    <None Include="res\13206_200803081131465-img2ico.net.ico" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\cow2.ico" />
+    <None Include="res\cow2.rc2" />
+    <None Include="res\cow2Doc.ico" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\UserImages.bmp" />
+    <None Include="res\灰色.ico" />
+    <None Include="res\绿色.ico" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdoSql.h" />
+    <ClInclude Include="BeginDlg.h" />
+    <ClInclude Include="CAxes.h" />
+    <ClInclude Include="CAxis.h" />
+    <ClInclude Include="CAxisTitle.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="CLegend.h" />
+    <ClInclude Include="cow2.h" />
+    <ClInclude Include="cow2Doc.h" />
+    <ClInclude Include="cow2View.h" />
+    <ClInclude Include="CPanel.h" />
+    <ClInclude Include="CSeries.h" />
+    <ClInclude Include="CTChart.h" />
+    <ClInclude Include="CTeeFont.h" />
+    <ClInclude Include="CTitles.h" />
+    <ClInclude Include="DlgAddNewPort.h" />
+    <ClInclude Include="DlgAllUser.h" />
+    <ClInclude Include="DlgData.h" />
+    <ClInclude Include="DlgDataView.h" />
+    <ClInclude Include="DlgDelUser.h" />
+    <ClInclude Include="DlgInData.h" />
+    <ClInclude Include="DlgOutData.h" />
+    <ClInclude Include="DlgOutData2.h" />
+    <ClInclude Include="DLGpwd.h" />
+    <ClInclude Include="DlgSetGate.h" />
+    <ClInclude Include="DlgSetPort.h" />
+    <ClInclude Include="DlgSetServer.h" />
+    <ClInclude Include="DlgWeb.h" />
+    <ClInclude Include="explorer1.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="mscomm1.h" />
+    <ClInclude Include="NewUser.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SplitStr.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tchart1.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdoSql.cpp" />
+    <ClCompile Include="BeginDlg.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="cow2.cpp" />
+    <ClCompile Include="cow2Doc.cpp" />
+    <ClCompile Include="cow2View.cpp" />
+    <ClCompile Include="DlgAddNewPort.cpp" />
+    <ClCompile Include="DlgAllUser.cpp" />
+    <ClCompile Include="DlgData.cpp" />
+    <ClCompile Include="DlgDataView.cpp" />
+    <ClCompile Include="DlgDelUser.cpp" />
+    <ClCompile Include="DlgInData.cpp" />
+    <ClCompile Include="DlgOutData.cpp" />
+    <ClCompile Include="DlgOutData2.cpp" />
+    <ClCompile Include="DLGpwd.cpp" />
+    <ClCompile Include="DlgSetGate.cpp" />
+    <ClCompile Include="DlgSetPort.cpp" />
+    <ClCompile Include="DlgSetServer.cpp" />
+    <ClCompile Include="DlgWeb.cpp" />
+    <ClCompile Include="explorer1.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="mscomm1.cpp" />
+    <ClCompile Include="NewUser.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="SplitStr.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tchart1.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cow2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="cow2.rc" _x007B_B6C10489-FB89-11D4-93C9-006008A7EED4_x007D_="CTchart1" _x007B_648A5600-2C6E-101B-82B6-000000000014_x007D_="CMscomm1" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CExplorer1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

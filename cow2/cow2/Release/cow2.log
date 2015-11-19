@@ -1,0 +1,77 @@
+﻿生成启动时间为 2015/6/27 14:36:25。
+     1>项目“E:\project\cow2\cow2\cow2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\cow2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\Program\vc_2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\cow2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AdoSql.cpp BeginDlg.cpp DLGpwd.cpp DlgAddNewPort.cpp DlgAllUser.cpp DlgData.cpp DlgDataView.cpp DlgDelUser.cpp DlgSetPort.cpp DlgSetServer.cpp Global.cpp MainFrm.cpp NewUser.cpp cow2View.cpp
+         AdoSql.cpp
+         BeginDlg.cpp
+     1>BeginDlg.cpp(43): warning C4002: “ON_WM_SYSCOMMAND”宏的实参太多
+         DLGpwd.cpp
+         DlgAddNewPort.cpp
+         DlgAllUser.cpp
+         DlgData.cpp
+         DlgDataView.cpp
+         DlgDelUser.cpp
+         DlgSetPort.cpp
+         DlgSetServer.cpp
+     1>DlgSetServer.cpp(103): warning C4018: “<”: 有符号/无符号不匹配
+         Global.cpp
+         MainFrm.cpp
+         NewUser.cpp
+         cow2View.cpp
+     1>cow2View.cpp(499): warning C4101: “a”: 未引用的局部变量
+     1>cow2View.cpp(591): warning C4305: “参数”: 从“int”到“short”截断
+     1>cow2View.cpp(591): warning C4309: “参数”: 截断常量值
+     1>cow2View.cpp(1057): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program\vc_2010\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>cow2View.cpp(1035): warning C4101: “sendSocket”: 未引用的局部变量
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program\vc_2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\cow2\Release\cow2.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib /MANIFEST /ManifestFile:"Release\cow2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\project\cow2\Release\cow2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\cow2\Release\cow2.lib" /MACHINE:X86 Release\cow2.res
+         Release\AdoSql.obj
+         Release\BeginDlg.obj
+         Release\ClassView.obj
+         Release\cow2.obj
+         Release\cow2Doc.obj
+         Release\cow2View.obj
+         Release\DlgAddNewPort.obj
+         Release\DlgAllUser.obj
+         Release\DlgData.obj
+         Release\DlgDataView.obj
+         Release\DlgDelUser.obj
+         Release\DlgInData.obj
+         Release\DlgOutData.obj
+         Release\DlgOutData2.obj
+         Release\DLGpwd.obj
+         Release\DlgSetGate.obj
+         Release\DlgSetPort.obj
+         Release\DlgSetServer.obj
+         Release\DlgWeb.obj
+         Release\explorer1.obj
+         Release\FileView.obj
+         Release\Global.obj
+         Release\MainFrm.obj
+         Release\mscomm1.obj
+         Release\NewUser.obj
+         Release\OutputWnd.obj
+         Release\PropertiesWnd.obj
+         Release\SplitStr.obj
+         Release\stdafx.obj
+         Release\tchart1.obj
+         Release\ViewTree.obj
+         正在生成代码
+         已完成代码的生成
+         cow2.vcxproj -> E:\project\cow2\Release\cow2.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\project\cow2\Release\cow2.exe;#1" /manifest Release\cow2.exe.intermediate.manifest E:\Program\vc_2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\cow2.unsuccessfulbuild”。
+         正在对“Release\cow2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\project\cow2\cow2\cow2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:27.23
