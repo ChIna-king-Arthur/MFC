@@ -1,0 +1,6 @@
+{
+  "name": "Mfc",
+  "tagline": "c++ mfc项目 cow",
+  "body": "这是一个基于mfc设计的Windows桌面程序，主要采集奶牛信息，多线程，数据库用sqlserver。",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
