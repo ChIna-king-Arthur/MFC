@@ -1,6 +1,6 @@
 {
-  "name": "Mfc",
-  "tagline": "c++ mfc项目 cow",
-  "body": "这是一个基于mfc设计的Windows桌面程序，主要采集奶牛信息，多线程，数据库用sqlserver。",
+  "name": "王亚圣的博客",
+  "tagline": "燕山大学信息学院王亚圣",
+  "body": "CSDN博客首页：http://blog.csdn.net/u011001084 欢迎访问",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
